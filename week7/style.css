@@ -1,0 +1,35 @@
+#grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    background-color: aqua;
+}
+.one{
+    background-color: aqua;
+    
+    border:3px solid blue;
+    text-align: center;
+    font-size: 45px;
+    padding: 30px;
+}
+.grid-1 ,.grid-4{
+
+grid-column: span 3;
+
+
+}
+.grid-2{
+    grid-row: span 3;
+    grid-column: span 2;
+}
+.grid-3{
+    grid-row: span 3;
+    
+}
+*{
+    margin: 0px;
+    padding: opx;
+}
+   
+
+
