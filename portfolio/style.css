@@ -1,0 +1,93 @@
+*{
+    margin:0 ;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+.navbar{
+    position: fixed;
+    width:100%;
+    background: red ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height:50px;
+    
+}
+.menu li a{
+    color:white;
+}
+.navbar .logo a{
+    font-size: 35px;
+    font-weight: 600;
+    color:#fff;
+}
+.navbar .menu li{
+    list-style: none;
+    display:inline-block;
+    font-size:18px;
+    font-weight:500;
+    margin-left:25px;
+    color: white;
+}
+.navbar .width{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.width{
+    padding:0 80px;
+    margin:auto;
+    max-width: 1300px;
+}
+
+.home{
+    display:flex;
+    background-image:url('./wall.jpeg');
+    height:830px;
+    width: 100%;
+}
+img{
+    height:830px;
+     margin-left: 300px;
+    width:700px; 
+}
+
+.image{
+    text-align: right;
+    
+}
+span{
+    color:grey;
+}
+.content{
+    color: white;
+    margin-top: 270px;
+    margin-left: 100px;
+    font-size: 50px;
+}
+.home .content .text-1{
+    font-size:55px;
+    margin-top: -15px;
+
+}
+.home .content .text-2{
+    margin-left: 30px;
+
+
+}
+
+.home .content .text-3{
+    font-size: 75px;
+    margin-left: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.home .content .text-4{
+    margin-left:40px;
+    font-size: 50px;
+
+}
+span1{
+    color:red;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-size: 50px;
+}
